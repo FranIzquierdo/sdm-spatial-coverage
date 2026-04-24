@@ -10,7 +10,7 @@ These scripts help to address whether species observations are well distributed 
 
 | Script | Spatial unit | Use case |
 |--------|-------------|----------|
-| `mesh_coverage.R` | Triangles (i.e., mesh) | `sdmTMB`, `R-INLA` |
+| `mesh_coverage.R` | Irregular triangles | `sdmTMB`, `R-INLA` |
 | `grid_coverage.R` | Regular cells | `GAM`, `GLM`, `BART` |
 
 
