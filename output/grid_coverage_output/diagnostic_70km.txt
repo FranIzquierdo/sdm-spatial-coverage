@@ -1,0 +1,26 @@
+=== GRID SPATIAL COVERAGE — 70km ===
+NOTE: Thresholds are heuristic and defined empirically by the authors.
+There are no universally accepted values — use these as a starting point.
+
+Resolution    : 70km
+Total cells   : 149
+Occupied      : 33 (22.15%)
+Domain area   : 677,739 km²
+
+Ratio (obs per occupied cell):
+  < 1.5  → grid too coarse
+  1.5–3  → good balance
+  > 3    → grid too fine
+  → Your value: 6.39
+
+P95 (95th percentile per occupied cell):
+  < 5    → well distributed
+  5–8    → moderate clustering
+  > 8    → high clustering
+  → Your value: 14.4
+
+% Occupied cells:
+  < 10%  → strong extrapolation (most domain unobserved)
+  10–30% → moderate geographic coverage
+  > 30%  → good geographic coverage
+  → Your value: 22.15%

@@ -1,0 +1,26 @@
+=== MESH SPATIAL COVERAGE — 35km ===
+NOTE: Thresholds are heuristic and defined empirically by the authors.
+There are no universally accepted values — use these as a starting point.
+
+Mesh nodes      : 565
+Total triangles : 1075
+Occupied        : 102 (9.49%)
+Domain area     : 207,139 km²
+
+Ratio (obs per occupied triangle):
+  < 1.5  → mesh too coarse
+  1.5–3  → good balance
+  > 3    → mesh too fine
+  → Your value: 2.07
+
+P95 (95th percentile per occupied triangle):
+  < 5    → well distributed
+  5–8    → moderate clustering
+  > 8    → high clustering
+  → Your value: 4
+
+% Occupied triangles:
+  < 10%  → many empty triangles
+  10–30% → reasonable
+  > 30%  → mesh relatively coarse
+  → Your value: 9.49%
