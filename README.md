@@ -2,7 +2,7 @@
 
 Exploratory analysis of species observations (e.g., occurrences) over a selected spatial domain in an SDM context. 
 
-See `sdm-spatial-coverage.pdf` for more info and to see the applied example.
+See `/output/mesh_coverage_output/mesh_coverage_35km.png` and `sdm-spatial-coverage.pdf` for more info and to see the applied example.
 
 ## What it does
 
